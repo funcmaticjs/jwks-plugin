@@ -1,0 +1,25 @@
+{
+  "name": "@funcmaticjs/jwks-plugin",
+  "version": "0.0.1",
+  "description": "Verifies a JWT token using public keys retrieved from JWKS URI and puts the decoded token in 'ctx.state.auth'",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/jwks-plugin.git"
+  },
+  "dependencies": {
+    "@funcmaticjs/jwks-token-verifier": "0.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
