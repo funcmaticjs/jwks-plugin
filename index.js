@@ -1,1 +1,1 @@
-module.exports = require('./lib/auth0.js')
+module.exports = require('./lib/jwks.js')

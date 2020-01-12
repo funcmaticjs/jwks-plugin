@@ -1,6 +1,6 @@
 {
   "name": "@funcmaticjs/jwks-plugin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Verifies a JWT token using public keys retrieved from JWKS URI and puts the decoded token in 'ctx.state.auth'",
   "main": "index.js",
   "scripts": {

@@ -126,9 +126,7 @@ describe('Valid Authentication', () => {
     expect(ctx.state.auth).toMatchObject({
       success: true,
       decoded: {
-        payload: {
-          iss: "accounts.google.com"
-        }
+        iss: "accounts.google.com"
       }
     })
   })
